@@ -1,0 +1,9 @@
+[Dynamic Items]
+├─ Over Ons
+├─ Diensten
+└─ Contact
+───────────────   ← Visual <hr>
+[Static Items]
+├─ Home          ← Active on index.php
+├─ Blog
+└─ Privacy
