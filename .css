@@ -1,0 +1,41 @@
+<style>
+.site-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.site-menu li {
+    margin: 0;
+}
+
+.site-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.site-menu a:hover,
+.site-menu a.active {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.menu-separator {
+    flex: 1 1 100%;
+    padding: 0.5rem 0;
+}
+
+.menu-separator hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 0.75rem 0;
+}
+</style>
